@@ -23,10 +23,10 @@ public class EmployeeWage {
 			System.out.println("Employee Absent");
 		}
 		int DailyWage= fullday*SalHour;
-		System.out.println(DailyWage);
+		System.out.println("DailyWage is "+ DailyWage);
 		
 		int PartTimeWage= partTime*SalHour;
-		System.out.println(DailyWage);
+		System.out.println("PartTimeWage is "+ PartTimeWage);
 		
 		int WageperMonth= fullday*20 * SalHour;
 		System.out.println("WageperMonth is " + WageperMonth);
