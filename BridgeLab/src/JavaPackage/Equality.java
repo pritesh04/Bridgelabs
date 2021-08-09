@@ -7,6 +7,14 @@ public class Equality {
 		int len2=(int) Math.sqrt((f-e)^2+(h-g)^2);
 		System.out.println(Integer.toString(len1).equals(Integer.toString(len2)));
 		System.out.println(Integer.toString(len1).compareTo(Integer.toString(len2)));
+		System.out.println(len1 + "    " +len2); 
+		int z= Integer.toString(len1).compareTo(Integer.toString(len2));
+		if(z==0)
+			System.out.println("Lines are equall");
+		else if(z>0)
+			System.out.println("Length 1 is greater");
+		else
+			System.out.println("Length 2 is greater");
 		
 	}
 
